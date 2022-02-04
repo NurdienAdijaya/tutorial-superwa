@@ -1,4 +1,4 @@
-Tutorial SuperWA 2022
+Tutorial SuperWA
 =====================
 ---
 # Channel
