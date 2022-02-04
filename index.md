@@ -28,11 +28,11 @@ Table of Content:
 * [User](#user)
 	* [User List](#user-list)
 	* [Replies History](#replies-history)
-* [Business+](#business+)
+* [Business Plus](#business-plus)
 	* [eShop](#eshop)
 		* [Edit Shop](#edit-shop)
 	* [eForm](#eform)
-* [Pengaturan](#pengaturan)
+* [Settings](#settings)
 
 ---
 # Channel
@@ -239,7 +239,7 @@ Disini kamu dapat melihatnya berdasarkan Hari, Minggu, Bulan, hingga Tahun
 
 
 ---
-# Business+
+# Business Plus
 Di fitur ini kamu bisa membuat Toko kamu sendiri, dan juga kamu bisa membuat Form Survey untuk dibagikan ke semua customer kamu
 
 ## eShop
@@ -274,7 +274,7 @@ Jika sudah, kamu bisa membuat Form yang kamu inginkan di Form Designer. Klik men
 
 
 ---
-# Pengaturan
+# Settings
 Di fitur ini dapat merubah nama Workspace, meng-upgrade paket, atau menambah masa aktif paket kamu. Kamu juga dapat mendownload Invoice Pembayaran kamu
 ![](https://docs.superwa.io/uploads/upload_3167e9a1a4c40614de6f79d6e50476de.png)
 
