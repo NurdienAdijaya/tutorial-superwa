@@ -130,7 +130,7 @@ Di feature ini, kamu dapat melihat semua data dari aktivitas Broadcast yang kamu
 
 	
 ### Membuat Broadcast
-Untuk memulai aktivitas broadcast, klik tombol ‘+ Broadcast’, lalu pilih Channel untuk menentukan Channel mana yang akan mengirim Broadcast. Lalu pilih contact yang akan dikirimkan Broadcast. Kamu bisa mencari contact satu persatu dari Whatsapp contact, atau memilih langsung sesuai Contact List yang telah kamu siapkan sebelumnya (Lihat: [Membuat Contact List](#contact-list)).
+Untuk memulai aktivitas broadcast, klik tombol ‘+ Broadcast’, lalu pilih Channel untuk menentukan Channel mana yang akan mengirim Broadcast. Lalu pilih contact yang akan dikirimkan Broadcast. Kamu bisa mencari contact satu persatu dari Whatsapp contact, atau memilih langsung sesuai Contact List yang telah kamu siapkan sebelumnya (Lihat: [Membuat Contact List](#Contact-List)).
 Jika sudah, silahkan klik 'Next'
 ![](https://docs.superwa.io/uploads/upload_8152451a0110c65e53dfbbe8e561f56b.png)
 
