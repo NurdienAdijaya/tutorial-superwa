@@ -304,6 +304,9 @@ nav ol {
 
 img {
   border: 0; /* 1 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   -ms-interpolation-mode: bicubic; /* 2 */
 }
 
