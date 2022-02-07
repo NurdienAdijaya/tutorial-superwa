@@ -71,7 +71,7 @@ h3 {
 a {
   color: #4276b6;
   font-weight: 400;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a small {
@@ -206,7 +206,7 @@ header {
   // min-height: 76px;
 
   h1 {
-    font: 30px/48px Inter, sans-serif;
+    font: 20px/40px Inter, sans-serif;
     font-weight: 700;
     color: #f3f3f3;
     text-shadow: 0px 2px 0px #235796;
@@ -224,6 +224,47 @@ header {
     font-size: 18px;
     margin: 0px;
   }
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  // background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: none;
+  // display: block;
+  // position: absolute;
+  // right: 0;
+  // top: 10px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.164);
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  // background-color: #04aa6d;
+  // color: white;
 }
 
 #banner {
@@ -319,7 +360,7 @@ section {
   width: 590px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
-  margin-top: 110px;
+  margin-top: 115px;
   position: relative;
   background: #fbfbfb;
   border-radius: 3px;
@@ -336,7 +377,7 @@ small {
 nav {
   width: 230px;
   position: fixed;
-  top: 120px;
+  top: 125px;
   left: 50%;
   margin-left: -580px;
   text-align: right;
@@ -408,6 +449,8 @@ footer {
   section,
   footer {
     float: none;
+    padding: 5px 0px;
+    min-height: 0px;
 
     h1 {
       white-space: nowrap;
@@ -437,7 +480,7 @@ footer {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
     padding: 20px;
-    margin: 190px auto 20px;
+    margin: 90px auto 20px;
     max-width: 600px;
   }
 
@@ -453,6 +496,12 @@ footer {
 @media print, screen and (max-width: 1000px) {
   nav {
     display: none;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
   }
 }
 @media print, screen and (max-width: 720px) {
@@ -512,7 +561,7 @@ footer {
     min-height: 0px;
 
     h1 {
-      font-size: 24px;
+      font-size: 20px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;

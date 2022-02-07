@@ -4,7 +4,7 @@ layout: default
 
 ## Channel
 
-### Menyambungkan Akun Whatsapp
+#### Menyambungkan Akun Whatsapp
 sambungkan akun Whatsapp kamu dengan cara scan QR code yang tersedia, lalu tunggu sampai statusnya ‘Terhubung’
 ![](https://docs.superwa.io/uploads/upload_8a98407ae196d114461ab07896b2e9ab.png)
 
