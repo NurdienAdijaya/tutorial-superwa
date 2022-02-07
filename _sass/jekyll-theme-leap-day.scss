@@ -400,10 +400,6 @@ footer {
     margin: 0;
   }
 
-  nav {
-    display: none;
-  }
-
   header,
   section,
   footer {
@@ -450,7 +446,11 @@ footer {
     width: auto;
   }
 }
-
+@media print, screen and (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+}
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
