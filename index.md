@@ -4,18 +4,18 @@ layout: default
 
 ## Channel
 
-### Menyambungkan Akun Whatsapp
+#### Menyambungkan Akun Whatsapp
 sambungkan akun Whatsapp kamu dengan cara scan QR code yang tersedia, lalu tunggu sampai statusnya ‘Terhubung’
 ![](https://docs.superwa.io/uploads/upload_18e9308197b42ca6d3cc2993f93384b4.png)
 
 
 
 
-#### Add Channel
+##### Add Channel
 Kamu bisa menambahkan channel sesuai dengan package yang sudah kamu pilih dengan klik ‘+’
 
 
-#### Edit Channel
+##### Edit Channel
 Untuk mengubah nama channel, klik ‘icon edit’, kemudian ubah nama channel dan dan warna channel sesuai yang di inginkan, lalu klik ‘Save’
 ![](https://docs.superwa.io/uploads/upload_cd6b33d3af82bde9bdee83a71bb360d3.png)
 
