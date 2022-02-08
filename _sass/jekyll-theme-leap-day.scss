@@ -191,7 +191,7 @@ header {
     $header-bg-color-secondary,
     $header-bg-color
   );
-  padding: 1rem 0;
+  padding: 0 0;
   margin: 0;
   position: fixed;
   top: 0;
@@ -241,7 +241,7 @@ header {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
@@ -360,7 +360,7 @@ section {
   width: 590px;
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
-  margin-top: 115px;
+  margin-top: 80px;
   position: relative;
   background: #fbfbfb;
   border-radius: 3px;
@@ -377,9 +377,9 @@ small {
 nav {
   width: 230px;
   position: fixed;
-  top: 125px;
+  top: 110px;
   left: 50%;
-  margin-left: -580px;
+  margin-left: -570px;
   text-align: right;
 
   ul {
@@ -433,7 +433,7 @@ footer {
   width: 180px;
   position: fixed;
   left: 50%;
-  margin-left: -530px;
+  margin-left: -513px;
   bottom: 20px;
   text-align: right;
   line-height: 16px;
@@ -449,7 +449,7 @@ footer {
   section,
   footer {
     float: none;
-    padding: 5px 0px;
+    padding: 0px 0px;
     min-height: 0px;
 
     h1 {
@@ -480,17 +480,8 @@ footer {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
     padding: 20px;
-    margin: 90px auto 20px;
+    margin: 80px auto 20px;
     max-width: 600px;
-  }
-
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left: auto;
-    bottom: auto;
-    width: auto;
   }
 }
 @media print, screen and (max-width: 1000px) {
@@ -503,6 +494,15 @@ footer {
     right: 0;
     top: 10px;
   }
+
+  footer {
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: auto;
+  }
 }
 @media print, screen and (max-width: 720px) {
   body {
@@ -510,11 +510,9 @@ footer {
   }
 
   header {
-    padding: 20px 20px;
     margin: 0;
 
     h1 {
-      font-size: 32px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -540,7 +538,6 @@ footer {
   }
 
   section {
-    margin-top: 130px;
     margin-bottom: 0px;
     width: auto;
   }
@@ -556,8 +553,7 @@ footer {
   }
 
   header {
-    position: relative;
-    padding: 5px 0px;
+    // padding: 5px 0px;
     min-height: 0px;
 
     h1 {
@@ -570,7 +566,7 @@ footer {
     }
   }
   section {
-    margin-top: 5px;
+    margin-top: 80px;
   }
 
   #banner {
