@@ -16,6 +16,7 @@ body {
   margin: 0px;
   padding: 0px 0 20px 0px;
   background: #ebebeb;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -225,7 +226,25 @@ header {
     margin: 0px;
   }
 }
+.logo_container {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  margin-left: 30px;
+}
+.superwa_logo_link {
+  padding: 0 !important;
 
+  h1 {
+    margin: 0 20px;
+  }
+}
+.superwa_logo {
+  height: 40px;
+  float: left;
+  margin: 0 20px;
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -485,6 +504,9 @@ footer {
   }
 }
 @media print, screen and (max-width: 1000px) {
+  .logo_container {
+    margin-left: 20px;
+  }
   nav {
     display: none;
   }
@@ -508,7 +530,12 @@ footer {
   body {
     word-wrap: break-word;
   }
-
+  .logo_container {
+    margin-left: 10px;
+  }
+  .logo_title {
+    display: none;
+  }
   header {
     margin: 0;
 

@@ -11,12 +11,12 @@ sambungkan akun Whatsapp kamu dengan cara scan QR code yang tersedia, lalu tungg
 
 
 
-#### Add Channel
+##### Add Channel
 Kamu bisa menambahkan channel sesuai dengan package yang sudah kamu pilih dengan klik ‘+’
 ![](https://docs.superwa.io/uploads/upload_dfedb524d09dbc54906bb435a3be9641.png)
 
 
-#### Edit Channel
+##### Edit Channel
 Untuk mengubah nama channel, klik ‘icon edit’, kemudian ubah nama channel dan dan warna channel sesuai yang di inginkan, lalu klik ‘Save’
 ![](https://docs.superwa.io/uploads/upload_dbd72e7d817dc13cf4e77480d0b309a7.png)
 
@@ -102,8 +102,12 @@ Untuk memberikan label pada pesan, kamu hanya perlu mengklik icon di pesan terse
 Kami menyediakan beberapa fitur setting pesan :
 * Don't Send Read Ack: untuk tidak mengirim sebagai pesan terbaca sampai dibalas
 * Auto Assign Chat On Reply: Menetapkan percakapan kepada operator yang membalasnya
-* Notification From All Chat: Mendapatkan notifikasi untuk semua pesan masuk
-* Notif me for Unreplied Chat : Mendapat pengingat jika masih ada pesan yang belum di balas
+* Auto Assign New Chat: Menetapkan percakapan kepada operator yang membalasnya
+* Receive Notification From: 
+    * From All Chat: Mendapatkan notifikasi untuk semua pesan masuk
+    * From Active Channel: Mendapatkan notifikasi hanya untuk Channel yang sedang aktif
+    * From Assigned Chat: Mendapatkan notifikasi hanya untuk  pesan masuk yand di Assign
+* Kamu juga bisa mengatur pengingat jika masih ada pesan yang belum di balas setiap 1 menit, 5 menit, atau 10 menit
 ![](https://docs.superwa.io/uploads/upload_4bdf6a68aa9ea6c244da3d5ca6fb937f.png)
 
 
@@ -293,5 +297,3 @@ Di fitur ini dapat merubah nama Workspace, meng-upgrade paket, atau menambah mas
 ---
 ## Help Center
 Jika kamu membutuhkan bantuan lebih, kamu bisa menghubungi kami di menu Help Center
-
-
